@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679eb5ed-279a-4d4b-a75e-2a85b0d8b300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" afterDir="false" />
+    <list default="true" id="679eb5ed-279a-4d4b-a75e-2a85b0d8b300" name="Changes" comment="Login Tests">
+      <change afterPath="$PROJECT_DIR$/tests/test/test_orangehrm_dashboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test/test_orange_hrm_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test/test_orange_hrm_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,24 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "abhijeet7py"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abhijeet7py&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/abhijeet7py/OrangeHRM.git",
-    "accountId": "48c3b8e9-b4c2-46d1-b414-eed8e46dd848"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abhijeet7py/OrangeHRM.git&quot;,
+    &quot;accountId&quot;: &quot;48c3b8e9-b4c2-46d1-b414-eed8e46dd848&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tests/utils/common_utils.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="340tJlzX7xCIo4EMEdBjzJsduv6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,11 +51,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.test.test_orange_hrm_login.test_logout_hrm.executor": "Run",
+    "Python tests.Python tests for tests.test.test_orange_hrm_login.test_orangehrm_login_negative_2.executor": "Run",
+    "Python tests.Python tests for tests.test.test_orangehrm_dashboard.test_orangehrm_about.executor": "Run",
+    "Python tests.Python tests in test_orange_hrm_login.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -63,6 +68,60 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Abhijeet Jathar\PycharmProjects\OrangeHRM" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for tests.test.test_orange_hrm_login.test_logout_hrm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRM" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test.test_orange_hrm_login.test_logout_hrm&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test.test_orange_hrm_login.test_orangehrm_login_negative_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRM" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test.test_orange_hrm_login.test_orangehrm_login_negative_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test.test_orangehrm_dashboard.test_orangehrm_about" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRM" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test.test_orangehrm_dashboard.test_orangehrm_about&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.test.test_orangehrm_dashboard.test_orangehrm_about" />
+        <item itemvalue="Python tests.Python tests for tests.test.test_orange_hrm_login.test_logout_hrm" />
+        <item itemvalue="Python tests.Python tests for tests.test.test_orange_hrm_login.test_orangehrm_login_negative_2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -79,6 +138,27 @@
       <option name="presentableId" value="Default" />
       <updated>1760362248032</updated>
     </task>
+    <task id="LOCAL-00001" summary="Login Tests">
+      <option name="closed" value="true" />
+      <created>1760461777272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760461777272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Login Tests">
+      <option name="closed" value="true" />
+      <created>1760464201298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760464201298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Tests" />
   </component>
 </project>

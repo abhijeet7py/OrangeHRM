@@ -1,5 +1,3 @@
-from webbrowser import Chrome
-
 import pytest
 import allure
 import time
@@ -21,7 +19,7 @@ def setup():
     return driver
 
 @allure.epic("OrangeHRM Login test")
-@allure.feature("TC#0- OrangeHRM Login test- Positive")
+@allure.feature("TC#1- OrangeHRM Login test- Positive")
 @pytest.mark.positive
 def test_orangehrm_login_positive(setup):
     login_page = LoginPage(driver=setup)
@@ -33,7 +31,7 @@ def test_orangehrm_login_positive(setup):
 
 
 @allure.epic("OrangeHRM Login test")
-@allure.feature("TC#1- OrangeHRM Login test- Negative")
+@allure.feature("TC#2- OrangeHRM Login test- Negative")
 @pytest.mark.negative
 def test_orangehrm_login_negative_1(setup):
     login_page = LoginPage(driver=setup)
@@ -42,7 +40,7 @@ def test_orangehrm_login_negative_1(setup):
     assert error == "Invalid credentials"
 
 @allure.epic("OrangeHRM Login test")
-@allure.feature("TC#2- OrangeHRM Login test- Negative")
+@allure.feature("TC#3- OrangeHRM Login test- Negative")
 @pytest.mark.negative
 def test_orangehrm_login_negative_2(setup):
     login_page = LoginPage(driver=setup)
@@ -51,7 +49,7 @@ def test_orangehrm_login_negative_2(setup):
     assert req_error == "Required"
 
 @allure.epic("OrangeHRM Login test")
-@allure.feature("TC#3- OrangeHRM Login test- Negative")
+@allure.feature("TC#4- OrangeHRM Login test- Negative")
 @pytest.mark.negative
 def test_orangehrm_login_negative_3(setup):
     login_page = LoginPage(driver=setup)
@@ -60,7 +58,7 @@ def test_orangehrm_login_negative_3(setup):
     assert req_error == "Required"
 
 @allure.epic("OrangeHRM Login test")
-@allure.feature("TC#4- OrangeHRM Login test- Negative")
+@allure.feature("TC#5- OrangeHRM Login test- Negative")
 @pytest.mark.negative
 def test_orangehrm_login_negative_4(setup):
     login_page = LoginPage(driver=setup)
@@ -69,10 +67,25 @@ def test_orangehrm_login_negative_4(setup):
     assert error == "Invalid credentials"
 
 @allure.epic("OrangeHRM Login test")
-@allure.feature("TC#5- OrangeHRM Login test- Positive")
+@allure.feature("TC#6- OrangeHRM Login test- Positive")
 @pytest.mark.negative
 def test_orangehrm_login_negative_5(setup):
     login_page = LoginPage(driver=setup)
     login_page.login_to_hrm(usr="Adm",pwd="admin123")
     error = login_page.get_error()
     assert error == "Invalid credentials"
+
+@allure.epic("OrangeHRM Logout test")
+@allure.feature("TC#7- OrangeHRM Login test- Positive")
+@pytest.mark.positive
+def test_logout_hrm(setup):
+    driver = setup
+    login_page = LoginPage(driver=driver)
+    login_page.login_to_hrm(usr="Admin",pwd="admin123")
+    dashboard_page = DashboardPage(driver=driver)
+    profile = dashboard_page.get_user_profile()
+    logout = dashboard_page.get_logout_button().click()
+    current = driver.current_url
+    expected = Constants.login_url()
+    assert f"Expected URL {expected} but got {current}."
+    print(current)
