@@ -37,7 +37,7 @@ class LoginPage:
         webdriver_wait(driver=self.driver, element_tuple = self.err_text, timeout=10)
         return self.driver.find_element(*LoginPage.err_text)
     def get_usr_req_text(self):
-        webdriver_wait(driver= self.driver, timeout=5,element_tuple=self.usr_req_txt)
+        webdriver_wait(driver= self.driver, timeout=10,element_tuple=self.usr_req_txt)
         return self.driver.find_element(*LoginPage.usr_req_txt)
     def get_pass_req_text(self):
         webdriver_wait(driver=self.driver, timeout=5, element_tuple=self.pass_req_text)

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679eb5ed-279a-4d4b-a75e-2a85b0d8b300" name="Changes" comment="Login Tests">
-      <change afterPath="$PROJECT_DIR$/tests/test/test_orangehrm_dashboard.py" afterDir="false" />
+    <list default="true" id="679eb5ed-279a-4d4b-a75e-2a85b0d8b300" name="Changes" comment="Orange HRM tests">
+      <change afterPath="$PROJECT_DIR$/tests/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pageFactory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pageFactory/loginPage_pf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test/test_orange_hrm_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test/test_orange_hrm_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for tests.test.test_orange_hrm_login.test_logout_hrm.executor": "Run",
-    "Python tests.Python tests for tests.test.test_orange_hrm_login.test_orangehrm_login_negative_2.executor": "Run",
-    "Python tests.Python tests for tests.test.test_orangehrm_dashboard.test_orangehrm_about.executor": "Run",
-    "Python tests.Python tests in test_orange_hrm_login.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.test.test_orange_hrm_login.test_logout_hrm.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.test_orange_hrm_login.test_orangehrm_login_negative_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.test_orangehrm_dashboard.test_orangehrm_about.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_orange_hrm_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Abhijeet Jathar\PycharmProjects\OrangeHRM" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test.test_orange_hrm_login.test_logout_hrm">
     <configuration name="Python tests for tests.test.test_orange_hrm_login.test_logout_hrm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRM" />
       <option name="ENV_FILES" value="" />
@@ -154,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760464201298</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login Tests">
+      <option name="closed" value="true" />
+      <created>1760547845698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760547845698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

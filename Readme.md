@@ -1,4 +1,4 @@
-# Web Automation Framework with POM in Python(Selenium)
+# Web Automation Framework with POM and Page Factory in Python(Selenium)
 
 ### Tech Stack
 - Python, PyTest
