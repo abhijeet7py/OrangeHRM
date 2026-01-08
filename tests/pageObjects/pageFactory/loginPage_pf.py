@@ -29,7 +29,7 @@ class LoginPage(PageFactory):
         self.password.set_text(pwd)
         self.login.click_button()
 
-    def error_text(self):
+    def error_text_(self):
         return self.err_text.get_text()
 
     def user_req_text(self):

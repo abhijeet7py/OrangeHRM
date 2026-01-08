@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="679eb5ed-279a-4d4b-a75e-2a85b0d8b300" name="Changes" comment="Orange HRM tests">
-      <change afterPath="$PROJECT_DIR$/tests/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pageFactory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pageFactory/loginPage_pf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +66,7 @@
       <recent name="C:\Users\Abhijeet Jathar\PycharmProjects\OrangeHRM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test.test_orange_hrm_login.test_logout_hrm">
+  <component name="RunManager">
     <configuration name="Python tests for tests.test.test_orange_hrm_login.test_logout_hrm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRM" />
       <option name="ENV_FILES" value="" />
@@ -165,11 +159,20 @@
       <option name="project" value="LOCAL" />
       <updated>1760547845698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Orange HRM tests">
+      <option name="closed" value="true" />
+      <created>1762346438326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762346438326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Tests" />
+    <MESSAGE value="Orange HRM tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Orange HRM tests" />
   </component>
 </project>

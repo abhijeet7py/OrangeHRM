@@ -1,0 +1,1 @@
+{"name": "test_logout_hrm", "status": "passed", "start": 1762186722073, "stop": 1762186723306, "uuid": "8a8f0bee-7810-4ede-b79a-90d0cc46bdce", "testCaseId": "e438bdf83bfab05e1388ace23a3eff3a", "fullName": "tests.test.test_orange_hrm_login#test_logout_hrm", "titlePath": ["tests", "test", "test_orange_hrm_login.py"]}
