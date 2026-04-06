@@ -2,7 +2,7 @@ import pytest
 import allure
 import time
 from selenium import webdriver
-from tests.constants.constants import Constants
+from tests.config.constants import Constants
 from selenium.webdriver.chrome.options import Options
 from tests.pageObjects.pom.dashboardPage import DashboardPage
 from tests.pageObjects.pom.loginPage import LoginPage

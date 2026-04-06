@@ -2,7 +2,7 @@
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from tests.constants.constants import Constants
+from tests.config.constants import Constants
 
 # Here we are using method overloading concept
 # method overloading means using same name functions with different arguments

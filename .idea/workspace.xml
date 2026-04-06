@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="679eb5ed-279a-4d4b-a75e-2a85b0d8b300" name="Changes" comment="Orange HRM tests">
+      <change afterPath="$PROJECT_DIR$/tests/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/driver_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/constants/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/constants/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/config/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test/test_orange_hrm_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test/test_orange_hrm_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test/test_orangehrm_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test/test_orangehrm_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/common_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/common_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
@@ -123,7 +132,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-07523f343e4f-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.27" />
       </set>
     </attachedChunks>
   </component>

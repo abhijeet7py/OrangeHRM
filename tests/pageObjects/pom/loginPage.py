@@ -1,7 +1,7 @@
 # login page class
 from selenium.webdriver.common.by import By
 
-from tests.constants.constants import Constants
+from tests.config.constants import Constants
 from tests.utils.common_utils import webdriver_wait,wedriver_wait_url
 # Page locators
 # Page Actions
