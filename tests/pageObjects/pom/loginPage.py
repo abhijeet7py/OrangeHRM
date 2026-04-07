@@ -1,6 +1,6 @@
 # login page class
 from selenium.webdriver.common.by import By
-
+from tests.pageObjects.pom.basePage import BasePage
 from tests.config.constants import Constants
 from tests.utils.common_utils import webdriver_wait,wedriver_wait_url
 # Page locators
@@ -9,10 +9,10 @@ from tests.utils.common_utils import webdriver_wait,wedriver_wait_url
 # Custom functions
 # No assertions (Page object class)
 
-class LoginPage:
+class LoginPage(BasePage):
     # Adding parameterized constructor
-    def __init__(self,driver):
-        self.driver = driver
+    # def __init__(self,driver):
+    #     self.driver = driver
 
     # Page Locators tuples
     username = (By.XPATH,"//input[@placeholder='Username']")
@@ -25,14 +25,14 @@ class LoginPage:
 
     # Page Actions -> You need to write the functions to access Page locator tuples
 
-    def get_username(self):
-        webdriver_wait(driver=self.driver,element_tuple=self.username,timeout=10)
-        return self.driver.find_element(*LoginPage.username)
-            # * --> means current class
-    def get_password(self):
-        return self.driver.find_element(*LoginPage.password)
-    def get_login_button(self):
-        return self.driver.find_element(*LoginPage.login)
+    # def get_username(self):
+    #     webdriver_wait(driver=self.driver,element_tuple=self.username,timeout=10)
+    #     return self.driver.find_element(*LoginPage.username)
+    #         # * --> means current class
+    # def get_password(self):
+    #     return self.driver.find_element(*LoginPage.password)
+    # def get_login_button(self):
+    #     return self.driver.find_element(*LoginPage.login)
     def get_err_text(self):
         webdriver_wait(driver=self.driver, element_tuple = self.err_text, timeout=10)
         return self.driver.find_element(*LoginPage.err_text)
@@ -46,9 +46,9 @@ class LoginPage:
     # Page action --> Main action
     def login_to_hrm(self,usr,pwd):
         try:
-            self.get_username().send_keys(usr)
-            self.get_password().send_keys(pwd)
-            self.get_login_button().click()
+            self.send_keys(self.username, usr)
+            self.send_keys(self.password, pwd)
+            self.click(self.login)
         except Exception as e:
             print(e)
 
